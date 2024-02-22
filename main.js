@@ -229,3 +229,5 @@ recentg.from(".recentcard", {
   duration: 1,
 });
 });
+
+console.log ('fix')
