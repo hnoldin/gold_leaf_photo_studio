@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "serve": "serve",
-    "build": "esbuild main.js --bundle --outfile=prod/main.js --watch"
+    "build": "esbuild main.js --bundle --outfile=prod/main.js --minify --watch"
   },
   "author": "",
   "license": "ISC",
@@ -14,6 +14,7 @@
     "@splidejs/splide": "^4.1.4",
     "@studio-freight/lenis": "^1.0.36",
     "esbuild": "^0.20.1",
-    "serve": "^14.2.1"
+    "serve": "^14.2.1",
+    "swiper": "^11.0.6"
   }
 }
