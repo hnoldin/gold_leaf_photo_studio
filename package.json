@@ -1,0 +1,18 @@
+{
+  "name": "gold_leaf_photo_studio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "serve",
+    "build": "esbuild --bundle --outfile=prod/main.js --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@splidejs/splide": "^4.1.4",
+    "esbuild": "^0.20.1",
+    "serve": "^14.2.1"
+  }
+}
