@@ -142,7 +142,7 @@ let fadecat = gsap.timeline({
     trigger: ".sectioncategory",
     start:  "-25% top",
     end: "bottom bottom",
-    markers: true,
+    markers: false,
    // toggleActions: "play pause resume reverse"
   },
 });
