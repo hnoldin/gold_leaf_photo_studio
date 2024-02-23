@@ -14,7 +14,7 @@ let lenis;
 if (Webflow.env("editor") === undefined) {
   lenis = new Lenis({
     lerp: 0.1,
-    wheelMultiplier: 0.6,
+    wheelMultiplier: 0.8,
     gestureOrientation: "vertical",
     normalizeWheel: false,
     smoothTouch: false
@@ -229,5 +229,3 @@ recentg.from(".recentcard", {
   duration: 1,
 });
 });
-
-console.log ('fix')
