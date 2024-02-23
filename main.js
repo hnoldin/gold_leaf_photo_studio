@@ -231,10 +231,6 @@ recentg.from(".recentcard", {
 });
 
 
-scrollTL.from(".pricingCard", {
-  
-});
-
 let investment = gsap.from(".pricingcard", {
   opacity: 0,
   y: "6rem",
@@ -242,3 +238,12 @@ let investment = gsap.from(".pricingcard", {
   stagger: { amount: 0.4, from: "Start" },
   duration: 1,
 });
+
+
+gsap.from(".animated-image", {   
+opacity: 0,
+y: "6rem",
+duration: 1,
+stagger: { amount: 0.4, from: "Start" },
+duration: 1,});
+
